@@ -1,0 +1,11 @@
+<!-- Task 11: Add your layout solution here -->
+<div class="card" [class.flipped]="card.isFlipped" [class.invisible]="card.isMatched" (click)="handleClick()" >
+    <div class="front">
+         <img [src]="card.imageId" >
+    </div>
+ 
+    <div class="back">
+         <img  [src]="'assets/Images/EducativeIcon.png'" />
+    </div>
+ 
+ </div>
